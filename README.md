@@ -1,2 +1,2 @@
 # Machine-Learning
-My personal toolkit of applied machine learning algorithms and techniques
+This repositry consists of a list of different machine learning tools and teachniques that I have applied during my time with data.
