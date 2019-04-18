@@ -1,0 +1,21 @@
+In this project, I created a bespoke master-data set for around 80 differnt characters in Game of Thrones comprirsing of 22 different variable through a multitude of sources like Reddit, Twitter, Wiki of Ice and Fire, Search and a digital integration of connected TV provider Vizio. The raw data from these sources were then parsed and analysed to get the list of features which we then used to predict the probability of deaths for different characters in GoT.
+
+The list of features considered for the modelling were as follows:
+1. Character type - Main	Character or Side character
+2. Gender
+3. Age	
+4. Title rating	
+5. Affliations with different houses - Starks, Targaryens, Lannisters or Neutral
+6. Where were they seen last in GoT? 	
+7. Screen time	
+8. Character traits- Fighter, Warrior, Deceptive ability, Thinker
+9. Fighting Prowess - Legendary, Warrior, Great, Decent, Not-much
+10. Social perception , etc.
+
+After label encoding the categorical variables and performing optimal feature scaling, we performed a significance test for the differnt features upon which we identified the features with maximum correlation to the survival of the character. The prominent features which emerged from the analysis were Fighting prowess, screen time and page ranks. 
+
+We then used logistic regression to build the predictive model upon these features which predicted the probability for death of different characters with an accuracy of 83% (not bad right).
+
+The final output was put up in the form of a blogpost link: https://medium.com/miq-tech-and-analytics/winter-is-here-are-you-ready-for-it-84cfbbc5fab9
+
+Have difficulty in understanding something and want further clarification. Fire away !!!
